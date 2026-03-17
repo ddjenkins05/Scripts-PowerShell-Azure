@@ -1,2 +1,2 @@
 # scripts
-Powershell and SQL
+Powershell
