@@ -48,6 +48,20 @@ Assumptions:
 # If you are running in an environment without ImportExcel, swap Import-Excel for a CSV/COM method.
 Import-Module Az.Storage
 Import-Module ImportExcel
+####################################################################################################
+#If you have an issue importing Excel Use these commands
+# Trust PSGallery (only prompts once)
+#Set-PSRepository -Name PSGallery -InstallationPolicy Trusted
+
+# Install ImportExcel for your user profile
+#Install-Module ImportExcel -Scope CurrentUser -Force
+
+# Load it
+#Import-Module ImportExcel
+
+# Verify
+#Get-Module ImportExcel -ListAvailable
+####################################################################################################
 
 # -----------------------------
 # Inputs / Configuration
